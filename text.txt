@@ -1,0 +1,12 @@
+3 arrays
+5 adjectives
+5 Names
+5 Power
+random generate
+a name one power and k
+var idx = Math.round(Math.random() * 4);
+
+on an event (form onsubmit, body onload) generate a hero.
+<form onsubmit="event.preventDefualt(); generatehero();>
+<body onload>
+var blank = (name != '') ? name : name[idx];
